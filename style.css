@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+/* landing-page */
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+
+.nav__title {
+  color: #243e63;
+  font: 24px inter, system-ui;
+  font-weight: bold;
+  margin: 0 24px 0 0;
+  padding-left: 16px;
+}
+
+.nav__container {
+  display: flex;
+  align-items: center;
+}
+
+
+  .list {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .list__item {
+    color: #243e63;
+    font: 14px inter, system-ui;
+    margin: 0 24px;
+    padding: 0 0 4px;
+  }
+
+  .logo {
+    max-width: 100%;
+    width: 2.5rem;
+    height: auto;
+  }
+
+/* React Templates*/
+
+.intro__container {
+  display: flex;
+
+}
+
+.intro__container--left {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.react__templates {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.text__purple {
+  color: #6415ff;
+}
+
+.template__para {
+  color: #243e63;
+  font: 18px inter, system-ui;
+  margin: 32px 0;
+}
+
+.template__email {
+  display: flex;
+  flex-direction: row;
+}
+
+.template__email--address {
+  background: #ffffff;
+  padding: 20px 192px 20px 32px;
+  border-radius: 9999px;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: inherit;
+  margin: 0;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+.trusted__customers--para {
+  font-size: 0.75rem;
+  font: 12px inter, system-ui;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgb(160 174 192 / var(--tw-text-opacity));
+  margin: 0;
+}
+
+.intro__container--right {
+  max-width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.image__1 {
+  max-width: 48rem;
+  width: 100%;
+  min-width: 0px;
+  height: auto;
+  display: block;
+  box-sizing: border-box;
+  padding: 2rem;
+  font-family: inter, system-ui;
+}
+
+.image__2 {
+  margin: 16px 0 0;
+  padding: 0 128px 0 0;
+  padding-right: 8rem;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 48rem;
+  opacity: 0.5;
+}
+
+/* FEATURES */
+
+.container__features {
+  padding: 80px 0;
+}
+
+.features__title {
+  color: #6415ff;
+  font: 16px, system-ui;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: flex;
+  justify-content: center;
+}
+
+.amazing__service--title {
+  display: flex;
+  justify-content: center;
+  white-space: pre;
+  font-size: 3rem;
+}
+
+.amazing__service--purple {
+  color: #6415ff;
+}
+
+.features__para--1 {
+
+}
