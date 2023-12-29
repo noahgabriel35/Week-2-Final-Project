@@ -5,6 +5,11 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  a {
+    text-decoration: none;
+    color: #243e63;
+  }
+
 /* landing-page */
 
 .row {
@@ -36,6 +41,8 @@
   .list {
     display: flex;
     list-style-type: none;
+    justify-content: center;
+    align-items: center;
   }
 
   .list__item {
@@ -43,6 +50,22 @@
     font: 14px inter, system-ui;
     margin: 0 24px;
     padding: 0 0 4px;
+  }
+
+  .list__item--text {
+    color: #243e63;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    font-weight: bold;
+  }
+
+  .sign__up--button {
+    border-radius: 9999px;
+    padding: 0.75rem 2rem 0.75rem 2rem;
+    background-color: #6415ff;
+    font-size: 14px;
+    color: white;
+    border: none;
   }
 
   .logo {
@@ -84,11 +107,12 @@
 .template__email {
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 .template__email--address {
   background: #ffffff;
-  padding: 20px 192px 20px 32px;
+  padding: 24px 192px 24px 32px;
   border-radius: 9999px;
   font-family: inherit;
   font-size: 100%;
@@ -96,6 +120,27 @@
   margin: 0;
   color: inherit;
   box-sizing: border-box;
+  width: 100%;
+}
+
+.email__start--button {
+  position: absolute;
+  right: 0;
+  width: 160px;
+  line-height: 1.5;
+  font-weight: bold;
+  border-radius: 999px;
+  padding: 12px 0;
+  margin: 10px 8px 10px 0;
+  background-color: #6415ff;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+}
+
+.landing__page--input-wrapper {
+  padding-top: 80px;
 }
 
 .trusted__customers--para {
@@ -104,7 +149,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: rgb(160 174 192 / var(--tw-text-opacity));
+  color: #a0aec0;
   margin: 0;
 }
 
@@ -154,8 +199,8 @@
 .amazing__service--title {
   display: flex;
   justify-content: center;
-  white-space: pre;
-  font-size: 3rem;
+  font-size: 48px;
+  padding: 2rem;
 }
 
 .amazing__service--purple {
@@ -163,5 +208,10 @@
 }
 
 .features__para--1 {
-
+  color: #7c8ba1;
+  font-size: 18px;
+  margin: 16px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
