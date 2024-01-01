@@ -12,7 +12,8 @@
 
 /* landing-page */
 
-.row {
+.row,
+.row__features{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -78,7 +79,6 @@
 
 .intro__container {
   display: flex;
-
 }
 
 .intro__container--left {
@@ -183,7 +183,9 @@
 /* FEATURES */
 
 .container__features {
-  padding: 80px 0;
+  padding: 96px 0;
+  flex-direction: row;
+  margin: 0 74.5px;
 }
 
 .features__title {
@@ -203,7 +205,7 @@
   padding: 2rem;
 }
 
-.amazing__service--purple {
+.purple__text {
   color: #6415ff;
 }
 
@@ -214,4 +216,98 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container__features {
+  padding: 80px 0;
+}
+
+.container__features--tiles {
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.container__tile--1,
+.container__tile--2,
+.container__tile--3,
+.container__tile--4,
+.container__tile--5,
+.container__tile--6 {
+  padding: 32px 8px;
+  margin: 0 16px;
+  display: flex;
+}
+
+.secure__tile--img {
+  padding: 20px;
+}
+
+.secure__tile--title {
+  font-size: 24px;
+}
+.secure__tile--para {
+  color: #a0aec0;
+}
+
+
+/* QUALITY WORK */ 
+
+.quality__work--container {
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+}
+
+.quality__work--left {
+  box-sizing: border-box;
+  padding: 32px 0;
+  margin: 32px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.quality__work--title {
+  font-size: 16px;
+  color: #6415ff; 
+  font-weight: 700;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.quality__work--big {
+  color: #7c8ba1;
+  font-size: 48px;
+  margin: 16px 0 0;
+}
+
+.quality__work--para {
+  font-size: 18px;
+  color: #7c8ba1;
+  margin: 16px 0 0;
+}
+
+.learn__more--button {
+  color: #f7fafc;
+  background-color: #6415ff;
+  font-size: 32px 0 0;
+  padding: 12px 32px;
+  border-radius: 9999px;
+  text-decoration: inherit;
+  width: 160px;
+  font-weight: bold;
+}
+
+.quality__work--right {
+  width: 50%;
+}
+
+.quality__work--img {
+  border-width: 1;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
 }
