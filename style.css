@@ -638,22 +638,26 @@ color: #f7fafc;
 font-size: 48px;
 color: #1a202c;
 margin: 4px 0;
+font-weight: 700;
 }
 
 .price__heading--other {
 font-size: 48px;
 margin: 4px 0;
 color: #f7fafc;
+font-weight: 700;
 }
 
 .monthly {
 font-size: 16px;
 color: #a0aec0;
+font-weight: 700;
 }
 
 .monthly__other {
 font-size: 16px;
 color: #edf2f7;
+font-weight: 700;
 }
 
 .middle__header {
@@ -670,12 +674,14 @@ color: #f7fafc;
 color: #718096;
 font-size: 16px;
 margin: 20px 0 0;
+font-weight: 500;
 }
 
 .middle__items--other {
 color: #e2e8f0;
 font-size: 16px;
 margin: 20px 0 0;
+font-weight: 500;
 }
 
 .button__thirds--1 {
@@ -1071,6 +1077,7 @@ padding: 0 0 4px;
   .intro__container {
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     margin: 0;
     padding: 96px 0;
@@ -1078,7 +1085,6 @@ padding: 0 0 4px;
 
   .react__templates {
     font-size: 30px;
-    text-align: center;
     color: #1a202c;
   }
 
@@ -1390,5 +1396,173 @@ padding: 0 0 4px;
 /* Tablets */
 
 @media (max-width: 768px) {
+
+
+  /* Intro */
+
+  .intro__container {
+    padding: 80px 0;
+  }
+
+  .react__templates {
+    max-width: 100%;
+  }
+
+  .template__para {
+    max-width: 100%;
+  }
+
+  /*Features*/
+
+  .container__features {
+    padding: 80px 0;
+  }
+
+  .features__para--1 {
+    font-size: 14px;
+  }
+
+  .container__features--tiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Quality Work */
+
+  .quality__work--container {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .quality__work--para {
+    font-size: 14px;
+  }
+
+  .quality__work--left {
+    align-items: center;
+    padding-top: 32px;
+  }
+
+  .learn__more--button {
+    margin: 32px 0 0;
+    padding: 12px;
+  }
+
+  /* Get Started */
+
+  .get__started--container {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .get__started--right {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .get__started--title-para {
+    margin: 0;
+  }
+
+  .get__started--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Values */ 
+
+  .values__container {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .values__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .values__container--2 {
+    text-align: center;
+  }
+
+  .values__split {
+    text-align: center;
+  }
+
+  .values__para {
+    font-size: 14px;
+  }
+
+  /* Pricing */ 
+
+  .pricing__para {
+    font-size: 14px;
+  }
+
+  /* Testimonials */
+
+  .testimonials__container {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonials__right {
+    text-align: center;
+    padding: 64px 0 0 0;
+  }
+
+  .test__bottom {
+  }
+
+  .img__name {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* Faqs */ 
+
+  .faqs__para {
+    font-size: 14px;
+  }
+
+  .faqs__dropdown--questions {
+    font-size: 18px;
+  }
+
+  /* Footer */ 
+
+  .footer__links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+}
+
+/* Small Phones */
+
+@media (max-width: 640px) {
+
+  .template__email--address {
+    
+  }
+
+
+  .image__2 {
+    margin: 16px 0 0;
+  }
+
+
 
 }
