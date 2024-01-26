@@ -5,6 +5,48 @@
   font-family: system-ui;
 }
 
+/* BLOBS */
+
+.svg__1 {
+  pointer-events: none;
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -10;
+  color: rgb(216, 171, 216);
+}
+
+.svg__2 {
+  width: 256px;
+  height: 600px;
+  right: 0;
+  position: absolute;
+
+}
+
+.svg__3 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 0;
+}
+
+.svg__4 {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 250px;
+  z-index: -10px;
+}
+
+.svg__5 {
+  
+}
+
+/* START */
+
 a {
   text-decoration: none;
   color: #243e63;
@@ -17,6 +59,27 @@ a {
 .menu--open .menu__backdrop {
   visibility: visible;
   opacity: 1;
+}
+
+.menu__link {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.menu__list {
+  margin: 8px 0;
+  padding: 0 0 4px;
+}
+
+.burger__button {
+  border-radius: 9999px;
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  background-color: #6415ff;
+  font-size: 14px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
 }
 
 .menu--open .menu__links {
