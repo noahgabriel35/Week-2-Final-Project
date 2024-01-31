@@ -16,14 +16,17 @@
   left: 0px;
   z-index: -10;
   color: rgb(216, 171, 216);
+  transform: translatex(-125px);
+  opacity: 0.05;
 }
 
 .svg__2 {
   width: 256px;
   height: 600px;
   right: 0;
+  top: 0;
   position: absolute;
-
+  transform: translateX(+115px);
 }
 
 .svg__3 {
@@ -102,6 +105,7 @@ a {
 
 .menu__links {
   visibility: hidden;
+  display: none;
 }
 
 /* landing-page */
@@ -201,7 +205,7 @@ a {
 }
 
 .react__templates {
-  font-size: 3rem;
+  font-size: 48px;
   font-weight: 700;
   line-height: 1.25;
 }
@@ -212,7 +216,7 @@ a {
 
 .template__para {
   color: #243e63;
-  font: 18px inter, system-ui;
+  font: 18px;
   margin: 32px 0;
 }
 
@@ -310,7 +314,6 @@ a {
 
 .amazing__service--title {
   font-size: 48px;
-  padding: 2rem;
 }
 
 .purple__text {
@@ -1144,6 +1147,18 @@ a {
   cursor: pointer;
 }
 
+/* width of 1280 */
+
+@media (max-width: 1280px) {
+
+  /* nav & intro */
+
+  
+
+}
+
+
+
 /* Large Phones */
 
 @media (max-width: 1024px) {
@@ -1218,11 +1233,11 @@ a {
   .intro__container--left {
     max-width: 60%;
   }
-}
 
-.react__templates {
-  font-size: 30px;
+
+.react__templates { 
   color: #1a202c;
+  font-size: 30px;
 }
 
 .template__para {
@@ -1324,6 +1339,7 @@ a {
   font-size: 16px;
   margin: 16px 0 0;
   line-height: 32px;
+  
 }
 
 /*Quality Work */
@@ -1519,6 +1535,9 @@ a {
 .footer__bottom {
   padding: 96px 32px;
 }
+
+}
+
 
 /* Tablets */
 
